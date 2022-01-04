@@ -52,38 +52,6 @@ nav a:hover:not(.active-navbar) {
     display: none;
 }
 
-/* bar inférieur */
-.bottombar{
-    background-color: rgb(74, 74, 74);
-    bottom: 0px;
-    display: flex;
-    position: fixed;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
-    width: 100%;
-}
-
-.bottombar a{
-    align-items: center;
-    background: rgba(107, 94, 43, 0.5);
-    border-radius: 10px;
-    color: rgba(230, 226, 213, 0.5);
-    display: flex;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    height: 30px;
-    justify-content: center;
-    margin: 10px 0 10px 0;
-    text-decoration: none;
-    width: 110%;
-}
-
-.bottombar a:hover{
-    background-color: rgb(235, 205, 88) ;
-    color: black;
-}
-
 /*responsive burger*/
 /*responsive navbar*/
 

@@ -1,0 +1,38 @@
+/* bar inférieur */
+.bottombar{
+    background-color: rgb(74, 74, 74);
+    bottom: 0px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.bottombar a{
+    align-items: center;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    height: 20px;
+    justify-content: center;
+    margin: 10px 20px;
+    text-decoration: none;
+    width: 90%;
+}
+
+.col1{
+    margin: 0px 50px;
+}
+
+.col2{
+    margin: 0px 50px;
+}
+
+.bottombar a:hover{
+    background-color: rgb(235, 205, 88) ;
+    color: black;
+}
