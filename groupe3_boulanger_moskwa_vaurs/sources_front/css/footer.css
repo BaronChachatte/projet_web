@@ -1,6 +1,7 @@
 /* footer */
 
 .footer{
+    position: fixed;
     align-items: center;
     background-color: rgb(74, 74, 74);
     bottom: 0px;
