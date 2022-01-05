@@ -8,7 +8,6 @@
 nav {
     background: rgb(74, 74, 74);
     height: 50px;
-    position: fixed;
     top: 0;
     width: 100%;
 }
@@ -52,8 +51,7 @@ nav a:hover:not(.active-navbar) {
     display: none;
 }
 
-/*responsive burger*/
-/*responsive navbar*/
+/*responsive burger/navbar*/
 
 @media all and (max-width:768px) {
     .label-burger {
@@ -71,8 +69,9 @@ nav a:hover:not(.active-navbar) {
         margin: 15px 0 5px 0;
     }
 
-    .nav {
+    nav {
         height: 50px;
+        position: fixed;
     }
 
     nav .navbar {
