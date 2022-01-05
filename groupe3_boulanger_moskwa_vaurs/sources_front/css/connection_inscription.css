@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.lign1 {
+    display: flex;
+    margin: 6.5% 0 0 5%;
+}
+
+.block_login {
+    display: block;
+    padding: 2% 0 0 2%;
+    background-color: rgba(230, 230, 230, 0.939);
+    border: solid 1px;
+    margin-right: 10%;
+    width: 500px;
+    height: 470px;
+    border-radius: 10px;
+}
+.txt_login {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.email_1 {
+    width: 90%;
+    margin-bottom: 30px;
+}
+.mdp_1{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.mdp_oublie{
+    color: black;
+    text-decoration: none;
+    margin-left: 60%;
+}
+
+.login_btn {
+    padding: 2px 8px 2px 8px;
+    margin: 10% 0 0 81%;
+    background-color: rgb(235, 205, 88);
+    cursor: pointer;
+}
+
+.block_inscr {
+    padding: 2% 0 0 2%;
+    background-color: rgba(230, 230, 230, 0.939);
+    border: solid 1px;
+    width: 710px;
+    height: 470px;
+    border-radius: 10px;
+}
+
+.lign_2_input {
+    display: flex;
+    margin-bottom: 30px;
+}
+.nom {
+    padding: 1px 0 1px 0;
+    width: 40%;
+    margin-right: 10%;
+}
+.prenom {
+    padding: 1px 0 1px 0;
+    width:40%;
+}
+.email_2{
+    padding: 1px 0 1px 0;
+    text-align: center;
+    width:91.2%;
+    margin-bottom: 30px;
+}
+.mdp_2{
+    padding: 1px 0 1px 0;
+    text-align: center;
+    width:91.2%;
+    margin-bottom: 30px;
+}
+.adresse {
+    padding: 1px 0 1px 0;
+    text-align: center;
+    width: 40%;
+    margin-right: 5%;
+}
+.numero {
+    padding: 1px 0 1px 0;
+    text-align: center;
+    width: 45%;
+}
