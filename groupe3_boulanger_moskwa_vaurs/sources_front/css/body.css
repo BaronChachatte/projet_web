@@ -1,7 +1,17 @@
-body {
-    background-image: url("../images/body/fond.jpg");
-    background-position: left top;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
+@media all and (min-width:768px) {
+    body {
+        background-image: url("../images/body/fond.jpg");
+        background-position: 0px -300px;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media all and (max-width:768px) {
+    body {
+        background-image: url("../images/body/fond.jpg");
+        background-size: 2000px;
+        background-position: -800px -200px;
+        margin: 0;
+        padding: 0;
+    }
 }
