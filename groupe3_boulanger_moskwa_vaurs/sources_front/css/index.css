@@ -1,3 +1,5 @@
+/*accueil*/
+
 .products-all {
     display: flex;
     flex-direction: column;
@@ -20,7 +22,7 @@
 }
 
 .product {
-    background-color: white;      /*remove when image ready*/
+    background-color: rgba(230, 230, 230, 0.9);      /*remove when image ready*/
     border-radius: 10px;
     height: 200px;                  /*remove when image ready*/
     margin: 0 5% 0 0;

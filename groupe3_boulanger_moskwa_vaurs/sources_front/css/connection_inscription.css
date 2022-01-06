@@ -1,10 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
-}
-.lign1 {
+/*block full*/
+
+.block_full {
     display: flex;
-    margin: 6.5% 0 0 5%;
+    margin: 10% 0 10% 5%;
 }
+
+/*block login*/
 
 .block_login {
     display: block;
@@ -16,33 +17,38 @@ body {
     height: 470px;
     border-radius: 10px;
 }
-.txt_login {
+
+.title_login {
     margin-bottom: 50px;
     font-weight: bold;
 }
-.email_1 {
+
+.email_login {
     width: 90%;
     margin-bottom: 30px;
 }
-.mdp_1{
+
+.pswd_login {
     width: 90%;
     margin-bottom: 10px;
 }
 
-.mdp_oublie{
+.pswd_rst_login {
     color: black;
     text-decoration: none;
     margin-left: 60%;
 }
 
-.login_btn {
+.btn_login {
     padding: 2px 8px 2px 8px;
     margin: 10% 0 0 81%;
     background-color: rgb(235, 205, 88);
     cursor: pointer;
 }
 
-.block_inscr {
+/*block register*/
+
+.block_register {
     padding: 2% 0 0 2%;
     background-color: rgba(230, 230, 230, 0.939);
     border: solid 1px;
@@ -51,38 +57,56 @@ body {
     border-radius: 10px;
 }
 
-.lign_2_input {
+.title_register {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.btn_register {
+    padding: 2px 8px 2px 8px;
+    margin: 10% 0 0 81%;
+    background-color: rgb(235, 205, 88);
+    cursor: pointer;
+}
+
+.input_register {
     display: flex;
     margin-bottom: 30px;
 }
-.nom {
+
+.name_register {
     padding: 1px 0 1px 0;
     width: 40%;
     margin-right: 10%;
 }
-.prenom {
+
+.first_name_register {
     padding: 1px 0 1px 0;
     width:40%;
 }
-.email_2{
+
+.email_register {
     padding: 1px 0 1px 0;
     text-align: center;
     width:91.2%;
     margin-bottom: 30px;
 }
-.mdp_2{
+
+.pswd_register {
     padding: 1px 0 1px 0;
     text-align: center;
     width:91.2%;
     margin-bottom: 30px;
 }
-.adresse {
+
+.adress_register {
     padding: 1px 0 1px 0;
     text-align: center;
     width: 40%;
     margin-right: 5%;
 }
-.numero {
+
+.phone_number_register {
     padding: 1px 0 1px 0;
     text-align: center;
     width: 45%;
