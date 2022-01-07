@@ -11,14 +11,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 10% 5% 0 5%;
+    margin: 2% 5% 0 5%;
 }
 
 .products-bottom {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5% 5% 10% 5%;
+    margin: 5% 5% 0% 5%;
 }
 
 .product {
