@@ -1,0 +1,66 @@
+.devices-container {
+    align-items: center;
+    background-color: rgb(74, 74, 74);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.9);
+    width: 250px;
+    margin: 10% 0 10% 0;
+}
+
+.devices {
+    align-items: center;
+    background: rgba(235, 206, 88, 0.5);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    justify-content: center;
+    margin: 10% 5%;
+    text-decoration: none;
+    width: 90%;
+}
+
+.devices:hover{
+    background-color: rgb(235, 205, 88) ;
+    color: black;
+    height: 30px;
+}
+
+.devices-inputs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: blue;
+    width: 100%;
+}
+
+.devices-inputs-add {
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.devices-inputs-delete {
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(191, 0, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
