@@ -3,11 +3,10 @@
 .footer{
     align-items: center;
     background-color: rgb(74, 74, 74);
-    bottom: 0px;
     display: flex;
     height: 50px;
     justify-content: center;
-    overflow: hidden;
+    position: absolute;
     width: 100%;
 }
 
@@ -20,7 +19,6 @@
     font-weight: bold;
     height: 20px;
     justify-content: center;
-    margin: 5px 20px;
     text-decoration: none;
     width: 90%;
 }
