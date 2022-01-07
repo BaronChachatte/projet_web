@@ -13,9 +13,9 @@ nav {
 }
 
 nav .navbar {
-    align-items: center;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav a {
@@ -28,9 +28,9 @@ nav a {
     font-weight: bold;
     height: 30px;
     justify-content: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 40px 10px 0;
     text-decoration: none;
-    width: 10%;
+    width: 100px;
 }
 
 nav a:hover:not(.active-navbar) {
@@ -43,6 +43,18 @@ nav a:hover:not(.active-navbar) {
     background-color: rgb(235, 205, 88);
     border-radius: 10px;
     color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.lien{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /*burger*/
@@ -66,7 +78,7 @@ nav a:hover:not(.active-navbar) {
     }
 
     .logo-navbar {
-        margin: 15px 0 5px 0;
+        margin: 20px 0 5px 0;
     }
 
     nav {
@@ -86,10 +98,27 @@ nav a:hover:not(.active-navbar) {
     }
 
     nav .navbar a {
-        width: 20%;
+        width: 100px;
+        height: 20px;
+        margin: 5px 0 10px 0;
+    }
+
+    nav .navbar a:last-child {
+        margin: 5px 0 20px 0;
     }
 
     #active-burger:checked + .navbar {
         display: flex;
+    }
+    .lien{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin: 0;
+    }
+    .logo{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 }
