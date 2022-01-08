@@ -1,9 +1,5 @@
 /*body*/
 
-body {
-    height:100vh;
-}
-
 @media all and (min-width:768px) {
     body {
         background-image: url("../images/body/fond.jpg");

@@ -1,38 +1,40 @@
 /* mise en place container pour la page compte */
 .container{
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgba(230, 230, 230, 0.9);
-    height: 600px;
-    width: 40%;
-    margin: 150px auto;
+    height: 520px;
+    width: 600px;
+    margin: 75px auto 100px auto;
     border-radius: 10px;
     flex-wrap: wrap;
 }
 
 .formulaire{
-    margin: 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 10px;
     border-style: solid;
     border-width: thin;
-    height: 570px;
-    width: 50%;
+    height: 480px;
+    width: 405px;
     font-family: Arial, sans-serif;
 }
 
 .formulaire p{
-    margin: 6% 10% 6% 10%;
+    margin: 15px 0 15px 15px;
+}
+
+.formulaire button{
+    margin: 15px 0 15px 15px;
 }
 
 .formulaire button{
     background-color: rgb(235, 205, 88);
     width: 30%;
-    border-radius: 20px;
-    margin: 5% auto;
 }
 
 .modifier{
@@ -40,33 +42,46 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    height: 540px;
-    width: 40%;
+    height: 480px;
+    width: 135px;
     font-family: Arial, sans-serif;
 }
 
 .modifier a{
     text-decoration: none;
-    margin: 18px 30px;
+    margin: 15px 0;
 }
 
 /* responsive page mon compte */
+
 /* tablette */
-@media (max-width:768px)
-{
+@media all and (max-width:768px) {
     .container{
-        width: 100%;
-        margin: 150px auto;
-    }
-    .modifier a{
-        margin: 18px 15px;
+        margin: 100px auto 75px auto;
+        width: 500px;
     }
 
+    .formulaire {
+        width: 405px;
+    }
+
+    .modifier {
+        align-items: center;
+        width: 35px;
+    }
 }
 
-@media (max-width:425px)
-{
-    .modifier a{
-        margin: 20px 10%;
+/* smartphone */
+@media all and (max-width:480px) {
+    .container{
+        width: 400px;
+    }
+
+    .formulaire {
+        width: 305px;
+    }
+
+    .modifier {
+        width: 35px;
     }
 }
