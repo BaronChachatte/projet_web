@@ -19,11 +19,36 @@
 }
 
 .active-device-settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgba(230, 230, 230, 0.9);
     border-radius: 10px;
     width: 1000px;
 }
 
+.active-device-settings img{
+    height: 100%;
+    width: 65%;
+    border-radius: 10px;
+}
+
+.active-device-settings button{
+    height: 45px;
+    width: 90px;
+    margin: 0px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px;
+}
+
+.boutton{
+    display: flex;
+    margin: 0px auto;
+}
 .devices a {
     align-items: center;
     background: rgba(235, 206, 88, 0.5);
@@ -101,6 +126,10 @@
 /* responsive appareil5 */
 @media all and (max-width:768px) {
     .active-device-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 2.5% 2.5% 2.5% 2.5%;
         padding: 50px 0 0 0;
     }
@@ -111,6 +140,19 @@
 
     .devices a {
         width: 175px;
-        margin: 0 10px 0 10px;
+        margin: 10px 10px 0 10px;
+    }
+    .devices a:last-child {
+        margin: 10px auto 0 auto;
+    }
+    .active-device-settings{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-top: 20px;
+        height: 200px;
+    }
+    .active-device-settings button{
+        margin: 10px 20px;
     }
 }
