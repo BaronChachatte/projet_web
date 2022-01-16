@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Compte</title>
+    <title>Appareil 2</title>
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/mon_compte.css">
+    <link rel="stylesheet" href="css/appareil2.css">
 </head>
 
 <body>
@@ -22,41 +21,35 @@
             </div>
             <div class="lien">
                 <a href="index.html">Accueil</a>
-                <a href="mes_appareils.html">Appareils</a>
+                <a class="active-navbar" href="mes_appareils.html">Appareils</a>
                 <a href="connection_inscription.html">Login</a>
-                <a class="active-navbar" href="mon_compte.html">Compte</a>
+                <a href="mon_compte.html">Compte</a>
             </div>
         </div>
     </nav>
 
-    <!-- mise en place container -->
-    <div class="container">
-        <div class="formulaire">
-            <p>Email: 123@gmail.com</p>
-            <p>Mot de passe : ******</p>
-            <p>Numéro de téléphone : 0677784652</p>
-            <p>Nom : Boulanger</p>
-            <p>Prénom : Valentin</p>
-            <p>Adresse : 51 rue du sabot</p>
-            <p>Langue : Français</p>
-            <p>Mode de paiement : Paypal</p>
-            <button>Log out</button>
+    <div class="active-device-container">
+        <div class="devices-container">
+            <div class="devices">
+                <a href="appareil1.html">Appareil 1</a>
+                <a class="active-device" href="appareil2.html">Appareil 2</a>
+                <a href="appareil3.html">Appareil 3</a>
+                <a href="appareil4.html">Appareil 4</a>
+                <a href="appareil5.html">Appareil 5</a>
+            </div>
+    
+            <div class="devices-inputs">
+                <button class="devices-inputs-add">+</button>
+    
+                <button class="devices-inputs-delete">Supprimer</button>
+            </div>
         </div>
-
-        <div class="modifier">
-            <a href="#">modifier</a>
-            <a href="#">modifier</a>
-            <a href="#">modifier</a>
-            <a href="#">modifier</a>
-            <a href="#">modifier</a>
-            <a href="#">modifier</a>
-            <a href="#">modifier</a>
-            <a href="#">modifier</a>
-            <a href="#">l/o</a>
+    
+        <div class="active-device-settings">
+    
         </div>
     </div>
 
-    <!-- bar inférieur -->
     <div class="footer">
         <div>
             <a href="index.html">Accueil</a>
@@ -69,5 +62,4 @@
         </div>
     </div>
 </body>
-
 </html>
