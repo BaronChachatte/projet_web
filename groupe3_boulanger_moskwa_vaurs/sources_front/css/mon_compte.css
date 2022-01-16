@@ -58,11 +58,11 @@
 @media all and (max-width:768px) {
     .container{
         margin: 100px auto 75px auto;
-        width: 500px;
+        width: 450px;
     }
 
     .formulaire {
-        width: 405px;
+        width: 355px;
     }
 
     .modifier {

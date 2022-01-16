@@ -78,7 +78,7 @@ nav a:hover:not(.active-navbar) {
     }
 
     .logo-navbar {
-        margin: 20px 0 5px 0;
+        margin: 5px 0 5px 0;
     }
 
     nav {
@@ -99,24 +99,25 @@ nav a:hover:not(.active-navbar) {
 
     nav .navbar a {
         width: 100px;
-        height: 20px;
-        margin: 5px 0 10px 0;
+        height: 30px;
+        margin: 5px 0 5px 0;
     }
 
     nav .navbar a:last-child {
-        margin: 5px 0 20px 0;
+        margin: 5px 0 10px 0;
     }
 
     #active-burger:checked + .navbar {
         display: flex;
     }
-    .lien{
+
+    .lien {
         flex-direction: column;
         justify-content:center;
         align-items: center;
         margin: 0;
     }
-    .logo{
+    .logo {
         justify-content: center;
         align-items: center;
         margin: 0;
