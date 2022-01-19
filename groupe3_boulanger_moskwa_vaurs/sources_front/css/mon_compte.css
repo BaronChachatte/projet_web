@@ -58,7 +58,7 @@
 @media all and (max-width:768px) {
     .container{
         margin: 100px auto 75px auto;
-        width: 450px;
+        width: 90%;
     }
 
     .formulaire {
@@ -74,11 +74,11 @@
 /* smartphone */
 @media all and (max-width:480px) {
     .container{
-        width: 400px;
+        width: 100%;
     }
 
     .formulaire {
-        width: 305px;
+        width: 280px;
     }
 
     .modifier {
