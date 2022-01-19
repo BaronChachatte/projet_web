@@ -125,6 +125,9 @@
         margin: 10px auto 50px auto;
         width: 90%;
     }
+    .btn_register {
+        margin: 10% 0 0 70%;
+    }
 }
 @media (min-width:768px) and (max-width:1000px) {
     .block_full {

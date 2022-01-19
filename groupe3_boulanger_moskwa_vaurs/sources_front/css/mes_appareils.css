@@ -25,6 +25,7 @@
     margin: 5px auto;
     text-decoration: none;
     width: 225px;
+    transition: 0.2s;
 }
 
 .devices a:first-child {
@@ -38,7 +39,8 @@
 .devices a:hover{
     background-color: rgb(235, 205, 88) ;
     color: black;
-    height: 30px;
+    height: 40px;
+    box-shadow: 5px 5px 11px black;
 }
 
 .devices-inputs {
@@ -81,5 +83,9 @@
 @media all and (max-width:768px) {
     .devices-container{
         margin: 20% auto 12.5% auto;
+    }
+    .devices a {
+        background-color: rgb(235, 205, 88) ;
+        color: black;
     }
 }
