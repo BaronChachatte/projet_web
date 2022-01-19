@@ -37,7 +37,34 @@
 
 .boutton{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto 0 auto;
+    height: 80%;
+}
+
+.input{
+    transform: rotate(-90deg);
+    height: 50px;
+}
+
+.ON{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;;
+}
+
+.OFF{
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .active-device-settings button{
@@ -133,10 +160,6 @@
 
 /* réglage problème de positionnement des bouttons a une certaines résolutions */
 @media all and (min-width:768px) and (max-width:1201px) {
-    .boutton{
-        display: block;
-        margin: 0 0 0 5%;
-    }
     .active-device-settings button{
         height: 45px;
         width: 90px;
@@ -187,5 +210,13 @@
     }
     .active-device-settings button{
         margin: 10px 20px;
+    }
+    .boutton{
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 5px auto;
+    }
+    .input{
+        transform: rotate(0deg);
     }
 }
