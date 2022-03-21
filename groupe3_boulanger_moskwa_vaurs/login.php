@@ -8,6 +8,7 @@ if(isset($_POST['formlogin']))
 
     if(!empty($lemail) && !empty($lmdp))
     {
+//         opération query
         $q = $db->prepare("SELECT * FROM users WHERE email = :email");
         $q->execute(['email' => $lemail]);
         $result = $q->fetch();
@@ -16,7 +17,8 @@ if(isset($_POST['formlogin']))
         {
             if (password_verify($lmdp, $result['mdp']))
             {
-                $loggedUser = ['email' => $user['email'],];
+//                 il faudrait ici avoir un cookie pour garder le compte connecté
+                echo "connexion..." 
             }
             else
             {
